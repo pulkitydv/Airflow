@@ -1,0 +1,5 @@
+{"timestamp":"2026-06-02T06:40:01.928651Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-06-02T06:40:01.930276Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/x_com.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-06-02T06:40:01.943279Z","level":"warning","event":"The `airflow.utils.timezone.utc` attribute is deprecated. Please use `'airflow.sdk.timezone.utc'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/x_com.py","lineno":8,"logger":"py.warnings"}
+{"timestamp":"2026-06-02T06:40:02.016041Z","level":"info","event":"Pulled Xcom with key 'output_path' from task 'product_page': /airflow/output_files/folder1/test.csv","logger":"task.stdout"}
+{"timestamp":"2026-06-02T06:40:02.016037Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}

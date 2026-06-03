@@ -1,0 +1,4 @@
+{"timestamp":"2026-06-02T11:00:02.863273Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-06-02T11:00:02.870781Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/consumer.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-06-02T11:00:03.282192Z","level":"info","event":"Poking for tasks ['generate_file'] in dag producer_dag on 2026-06-02T11:00:00+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor","filename":"external_task.py","lineno":275}
+{"timestamp":"2026-06-02T11:00:03.336349Z","level":"info","event":"Success criteria met. Exiting.","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor","filename":"sensor.py","lineno":250}
